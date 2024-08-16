@@ -6,7 +6,7 @@ const dbConnection = require('../database/config');
 require('dotenv').config();
 
 
-const { getExport, postExport,putExport, deleteExport } = require('../Controllers/exportController.js');
+const { getExport, postExport,putExport, deleteExport } = require('../Controllers/exportController');
 
 // Define la clase del servidor
 class Server {
